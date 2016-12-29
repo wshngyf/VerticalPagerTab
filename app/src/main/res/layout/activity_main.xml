@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!--
+    vptSelectedTabTextColor  所选文本字体颜色
+    vptTabPaddingLeftRight   textview左右边距
+    vptTabPaddingTopBottom   textview上下边距
+    vptTabBackground  TAB的背景色
+    vptTabTextSize  TAB textview字体大小
+    vptTabTextColor TAB textview字体颜色
+    vptTabTextBackgroundColor TAB textview背景
+    -->
+
+    <com.fey.vericalpagertablib.VerticalPagerTab
+        android:id="@+id/pager_tabs_interaction"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        app:vptSelectedTabTextColor="#46BC62"
+        app:vptTabPaddingLeftRight="10dp"
+        app:vptTabPaddingTopBottom="10dp"
+        app:vptTabTextColor="#333333"
+        app:vptTabTextSize="18dp" />
+
+    <com.fey.vericalpagertablib.NoSlidingViewPager
+        android:id="@+id/vp_context_interaction"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

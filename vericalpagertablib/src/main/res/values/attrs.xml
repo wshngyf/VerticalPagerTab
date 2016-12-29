@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="VerticalPagerTab">
+        <attr name="vptSelectedTabTextColor" format="color" />
+        <attr name="vptTabPaddingLeftRight" format="dimension" />
+        <attr name="vptTabPaddingTopBottom" format="dimension" />
+        <attr name="vptTabBackground" format="reference" />
+        <attr name="vptTextAllCaps" format="boolean" />
+        <attr name="vptTabTextSize" format="dimension" />
+        <attr name="vptTabTextColor" format="color" />
+        <attr name="vptTabTextMaxLength" format="integer" />
+        <attr name="vptTabTextBackgroundColor" format="color" />
+    </declare-styleable>
+
+</resources>
